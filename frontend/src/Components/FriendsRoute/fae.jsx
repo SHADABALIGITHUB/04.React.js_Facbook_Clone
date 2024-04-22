@@ -10,7 +10,7 @@ const Fae = () => {
 
               <div className='md:w-1/4'>
 
-                okey ia mworking 
+               
 
               </div>
 

@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "bcrypt-nodejs": "*",
+    "cloudinary": "^2.1.0",
+    "cookie-parser": "*",
+    "cors": "^2.8.5",
+    "debug": "*",
+    "express": "*",
+    "express-mysql-session": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "http-errors": "*",
+    "morgan": "*",
+    "mysql": "*",
+    "mysql2": "^3.9.3",
+    "passport": "*",
+    "passport-local": "*"
+  }
+}

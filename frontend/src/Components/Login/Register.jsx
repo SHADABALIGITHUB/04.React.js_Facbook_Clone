@@ -65,7 +65,7 @@ const Register = (props) => {
     
        
         try {
-            const response= await axios.post('http://192.168.0.125::5000/create', formData);
+            const response= await axios.post('http://localhost:5000/create', formData);
            
           setMessage(response.data.message);
           props.onchange(true);

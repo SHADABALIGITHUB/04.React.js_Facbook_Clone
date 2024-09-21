@@ -13,7 +13,7 @@ const Login = (props) => {
       event.preventDefault();
     //  console.log("working");
       try {
-        const response = await axios.post('http://192.168.0.125:5000/login', { email, password });
+          await axios.post('http://localhost:5000/login', { email, password });
        
           props.OnSubmit(true);
           setwrong('');
@@ -43,7 +43,7 @@ const Login = (props) => {
               </div>
             </div>
           </div>
-                       <div>Log in to Facebook</div>
+                       <div className='text-blue-500 font-bold font-serif text-xl'>Login Here </div>
                       <div  className='w-full p-2 flex justify-center'>
                       <input type="text" placeholder='Email or phone number' name="email" id="email" onChange={(e) => setEmail(e.target.value)}  className='w-full p-2 border-2 border-solid border-slate-300 rounded-lg' />
 
@@ -71,7 +71,7 @@ const Login = (props) => {
 
              <hr/>
 
-             <button onClick={clicked} className='bg-green-600 text-white font-sans p-2 font-bold md:w-1/2 w-4/6 rounded-lg active:bg-green-700 text-sm md:text-md'>Create new  account</button>
+             <button onClick={clicked} className='bg-green-600 text-white font-sans pt-2 pb-2 font-bold  w-4/6 rounded-lg active:bg-green-700 text-sm md:text-md'>Create new  account</button>
 
 
                       

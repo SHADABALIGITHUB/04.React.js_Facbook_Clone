@@ -8,6 +8,8 @@ import Messenger from './Components/MessengerRoute/Messenger';
 import Watch from './Components/watchRoute/watch';
 import Notification from './Components/NotificationRoute/Notification';
 import Shop from './Components/ShopRoute/Shop';
+import ProtectedRoute from './Auth/ProtectedRoute';
+import CreatPost from './Components/Main/Creat_Post';
 
 
 function App() {
@@ -28,13 +30,14 @@ function App() {
 
         <Route path="/Login" element={<Fae/>} /> 
         
-
+        {/* <Route path="/" element={<Dashboard/>} /> */}
         <Route path="/" element={count===false?<ConatinerLogin welcome={Welcomefun}/>:<Dashboard/>} />
         <Route path="/friends" element={<Fae/>} />
         <Route path="/messenger" element={<Messenger/>} />
         <Route path="/watch" element={<Watch/>} />
         <Route path="/notify" element={<Notification/>} />
         <Route path="/shop" element={<Shop/>} />
+        <Route path="/watch" element={<CreatPost/>}></Route>
         
         
       </Routes>

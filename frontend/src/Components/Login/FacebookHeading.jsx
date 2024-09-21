@@ -8,9 +8,9 @@ const FacebookHeading = () => {
         
         
         <div>
-        <h1 className='lg:text-6xl text-4xl md:mb-2 text-blue-700 font-medium'>facebook</h1>
-             <h4 className='lg:text-2xl text-lg'>Connect with friends and the world</h4>
-             <h4 className='lg:text-2xl text-lg'>around you on facebook.</h4>
+        <h1 className='lg:text-6xl text-4xl md:mb-2 text-blue-700 font-semibold font-GoogleFont'> Bell Weing </h1>
+             <h4 className='lg:text-2xl text-lg font-GoogleFont'>Connect with friends and the world</h4>
+             <h4 className='lg:text-2xl text-lg font-GoogleFont'>around you Here.</h4>
         </div>
 
      </div>
